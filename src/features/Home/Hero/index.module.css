@@ -11,10 +11,18 @@
     flex-direction: column;
     gap: 40px;
 }
+.text{
+    color: "#4D4D4D";
+    font-weight: 600;
+    font-size: 64px;
+}
 
 
 @media screen and (max-width: 760px){
     .heroImg{
         display: none;
+    }
+    .text{
+        font-size: 30px;
     }
 }

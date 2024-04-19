@@ -7,7 +7,7 @@ const Hero = () =>{
         <div className={style.mainCont}>
             <div className={style.innerDiv}>
                 <div>
-                    <h1 style={{color: "#4D4D4D", fontWeight: "600", fontSize: "64px"}}>Lessons and insights<span style={{display: "block", color: "#4CAF4F"}}>
+                    <h1 className={style.text}>Lessons and insights<span style={{display: "block", color: "#4CAF4F"}}>
                         from 8 years</span></h1>
                     <p style={{color: "#4D4D4D"}}>Where to grow your business as a photographer: site or social media?</p>
                 </div>
