@@ -1,0 +1,24 @@
+.mainCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.mainCont > div{
+    gap: 45px;
+}
+
+
+@media screen and (max-width: 760px) {
+
+    .mainCont{
+        flex-direction: column;
+    }
+    .imageCont > img{
+        width: 100%;
+    }
+    
+}

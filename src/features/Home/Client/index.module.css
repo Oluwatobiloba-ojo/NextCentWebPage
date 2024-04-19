@@ -1,0 +1,9 @@
+.innerDiv{
+    text-align: center;
+}
+
+.imageIcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
