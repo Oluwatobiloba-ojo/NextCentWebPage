@@ -27,5 +27,8 @@
     .mainCont > div {
         width: 50%;
     }
+    .mainCont{
+        gap: 60px;
+    }
     
 }
